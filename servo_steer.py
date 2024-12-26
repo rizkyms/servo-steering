@@ -45,7 +45,6 @@ root.bind('<Right>', move_right)  # Shortcut panah kanan
 root.bind('<Up>', move_center)    # Shortcut panah atas untuk kembali ke tengah
 root.bind('<Down>', move_center)  # Shortcut panah bawah untuk kembali ke tengah
 
-
 # Jalankan GUI
 try:
     root.mainloop()
